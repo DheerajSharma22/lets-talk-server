@@ -12,7 +12,6 @@ const chatSchema = new mongoose.Schema(
         },
         groupImg: {
             type: String,
-            required: true,
         },
         users: [
             {
